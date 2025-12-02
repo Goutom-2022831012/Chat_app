@@ -24,7 +24,7 @@ public class User2 extends JFrame {
         sendButton.addActionListener(e -> {
             String msg = inputField.getText();
             logic.sendMessage(msg);
-            chatArea.append("User2: " + msg + "\n");
+            chatArea.append("client: " + msg + "\n");
             inputField.setText("");
         });
 

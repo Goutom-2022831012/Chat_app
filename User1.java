@@ -40,7 +40,7 @@ public class User1 extends JFrame {
             while (true) {
                 String msg = logic.readMessage();
                 if (msg != null) {
-                    chatArea.append("User2: " + msg + "\n");
+                    chatArea.append("Client: " + msg + "\n");
                 }
             }
         }).start();
